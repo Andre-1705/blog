@@ -1,0 +1,65 @@
+.seccion{
+    background-image: linear-gradient(to bottom right, rgb(247, 247, 95), rgb(37, 114, 63));
+    margin-bottom: 75px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    border-bottom: 2px dotted rgb(247, 86, 46);
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.titulo h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-derecha {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.img-derecha img {
+    width: 300px;
+    height: 280px;
+    margin: 50px 40px 20px 0;
+}
+
+img{
+    width: 300px;
+    height: 280px;
+    margin-left: 600px;
+    margin-top: 50px;
+    display: block;
+    margin-bottom: 20px;
+}
+.row {
+    display: flex;
+}
+.column-1{
+    margin-top: -299px;
+    margin-left: 20px;
+    text-align: justify;
+}  
+.column-2{
+    margin-top: 0px;
+    margin-left: 20px;
+    text-align: justify;
+}  
+.column-3{
+    margin-top: -330px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}  

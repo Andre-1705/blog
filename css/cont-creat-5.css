@@ -1,0 +1,47 @@
+.seccion{
+    background-image: linear-gradient(to bottom right, rgb(253, 253, 222), rgb(101, 238, 248));
+    margin-bottom: 75px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    border-bottom: 2px dotted rgb(1, 117, 184);
+    margin-right: 50px;
+    margin-left: 50px;
+}
+h2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin-left: 720px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.row {
+    display: flex;
+}
+.column-1{
+    margin-top: -350px;
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 350px;
+}  
+.column-2{
+    margin-top: -440px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    text-align: justify;
+}  

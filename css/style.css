@@ -1,0 +1,282 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/*ver
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+/*ver*/
+header {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+header div img{
+    width: 10%;
+    height: 10%;
+    margin: -1% 3% 3% 3%;
+}
+.logo img{
+    border-radius: 100px;
+}
+header div h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: -1px -1px 0 #080200, 1px -1px 0 #080200, -1px 1px 0 #070200, 1px 1px 0 #050100;
+    font-size: 40px; 
+    color: rgb(250, 152, 114);
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header div h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px; 
+    display: flex;
+    margin-bottom: 40px;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.slogan img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -30px;
+    float: left;
+    border-radius: 100px;
+}
+.slogan h4{
+    margin-right: 79px;
+    margin-top: -10px;
+    padding-top: -70px;
+}     
+.contenedor-titulos{
+    margin-top: -200px;
+}
+.slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+    margin: 0;
+    white-space: nowrap;
+}
+.slogan-linea {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+}
+.slogan-linea:first-child .logo-slogan {
+    margin-top: 6px;
+}
+.slogan-linea:last-child .logo-slogan {
+    margin-top: 6px;
+}
+nav{
+    margin-left: 620px;
+    margin-top: 35px;
+}
+.navegacion a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700px;
+    background-color: rgb(250, 152, 114);
+    padding: 18px 18px;
+    margin-top: 1px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.navegacion a:hover{
+    color: salmon;
+    background-color: rgb(253, 214, 163);
+    border-radius: 10px;
+}
+.reserva a{
+    background-color: rgb(3, 3, 3);
+    margin-top: 40px;
+    margin-left: 560px;
+    margin-right: 500px;
+    text-decoration: none;
+    color: rgb(252, 214, 163);
+    font-size: 16px;
+    font-weight: 800px;
+    padding: 20px 28px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.reserva a:hover{
+    color: rgb(250, 152, 114);
+    background-color: rgb(253, 214, 163);
+    border-radius: 10px;
+}
+.fondo{
+    flex: 1 0 auto;
+    width: 100%;
+    /* height: 500px; */
+    margin-top: -40px;
+    background-image: url('../img/Nubes- color- salmon.png');
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header superior blanco */
+.header-superior {
+    width: 100%;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+    min-height: 55px;
+}
+.header-izquierda {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.header-centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-centro h1, .header-centro h2 {
+    text-align: center;
+    width: 100%;
+}
+.header-derecha {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+.slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+    margin: 0;
+    white-space: nowrap;
+}
+.logo-header {
+    width: 120px;
+    height: auto;
+}
+.header-derecha h1, .header-derecha h2 {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-derecha h1 {
+    font-size: 2.5rem;
+    color: rgb(250, 152, 114);
+    margin: 0;
+    text-shadow: -1px -1px 0 #080200, 1px -1px 0 #080200, -1px 1px 0 #070200, 1px 1px 0 #050100;
+}
+.header-derecha h2 {
+    font-size: 1.5rem;
+    margin: 0 0 10px 0;
+    color: #000;
+}
+.slogan h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #000;
+}
+.logo-slogan {
+    height: 1.6em;
+    width: auto;
+    vertical-align: middle;
+    border-radius: 100px;
+}
+
+/* Fondo decorativo */
+.fondo {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    background-image: url('../img/Nubes- color- salmon.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding-top: 30px;
+}
+
+/* Navbar sobre la imagen, alineado a la derecha */
+.navegacion-fondo {
+    display: flex;
+    justify-content: flex-end;
+    gap: 18px;
+    padding: 0 60px 0 0;
+}
+.navegacion-fondo a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(250, 152, 114);
+    padding: 14px 18px;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: background 0.2s, color 0.2s;
+}
+.navegacion-fondo a:hover {
+    color: salmon;
+    background-color: rgb(253, 214, 163);
+}
+
+/* Botón centrado sobre la imagen */
+.boton-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.btn-contactame {
+    background-color: #111;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 18px 36px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    transition: background 0.2s, color 0.2s;
+}
+.btn-contactame:hover {
+    background: rgb(250, 152, 114);
+    color: #111;
+    border-color: #111;
+}

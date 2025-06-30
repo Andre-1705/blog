@@ -1,0 +1,65 @@
+/*section-acerca-de*/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, rgb(247, 247, 95), rgb(248, 116, 101));
+}
+/*Ver main*/
+
+.selfie{
+    width: 300px;
+    height: 400px;
+    border-radius: 145px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+section div img{
+    width: 0%;
+    height: 8%;
+    margin-left: 950px;
+    margin-bottom: 40px;
+}
+.titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: salmon;
+    text-shadow: -1px 0 rgb(5, 5, 5), 1px -1px 0 rgb(7, 7, 7), -1px 1px 0 rgb(3, 3, 3), 1px 1px 0 rgb(8, 8, 8);
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.linea-punteada {
+    border: none;
+    border-bottom: 2px dotted salmon;
+    width: 60%;
+    margin: 0 auto 30px auto;
+}
+.contenido-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.parrafo {
+    width: 400px;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+/*Ver manitos*/
